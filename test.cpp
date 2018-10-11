@@ -7,15 +7,16 @@ TEST(EchoTest, HelloWorld) {
 	EXPECT_EQ("hello world", echo(3,test_val));
 }
 
-TEST(EchoTest, EmptyString){
+TEST(EchoTest, EmptyString) {
 	char* test_val[1]; test_val[0] = "./c-echo";
-	EXPECT_EQ("",echo(1,test_val));
+	EXPECT_EQ("", echo(1,test_val));
 }
 
 TEST(EchoTest, Symbols){
 	char* test_val[2]; test_val[0] = "./c-echo"; test_val[1] = "%$^";
 	EXPECT_EQ("%$^", echo(2,test_val));
 }
+
 TEST(EchoTest, RandomString){
 	char* test_val[2]; test_val[0] = "./c-echo"; test_val[1] = "RANDOM ZILLIONARE";
 	EXPECT_EQ("RANDOM ZILLIONARE", echo(2,test_val));
@@ -26,7 +27,7 @@ TEST(EchoTest, Numbers){
 	EXPECT_EQ("333322", echo(2,test_val));
 }
 
-int main(int argc, char **argv) {
+int main(int argc, char **argv){
 	::testing::InitGoogleTest(&argc, argv);
 	return RUN_ALL_TESTS();
 }
