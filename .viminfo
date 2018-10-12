@@ -23,18 +23,24 @@ $
 # Registers:
 
 # File marks:
-'0  18  0  ~/array.sh
-'1  14  0  ~/c-echo.h
-'2  1  0  ~/googletest
-'3  6  0  ~/list.sh
-'4  6  0  ~/main.cpp
-'5  33  0  ~/test.cpp
-'6  14  0  ~/test.cpp
-'7  22  0  ~/test.cpp
-'8  2  48  ~/main.cpp
-'9  4  111  ~/c-echo.h
+'0  1  0  ~/test.cpp
+'1  1  0  ~/test
+'2  60  0  ~/README.md
+'3  2  2  ~/header.cpp
+'4  18  0  ~/array.sh
+'5  14  0  ~/c-echo.h
+'6  1  0  ~/googletest
+'7  6  0  ~/list.sh
+'8  6  0  ~/main.cpp
+'9  33  0  ~/test.cpp
 
 # Jumplist (newest first):
+-'  1  0  ~/test.cpp
+-'  1  0  ~/test
+-'  60  0  ~/README.md
+-'  1  0  ~/README.md
+-'  2  2  ~/header.cpp
+-'  1  0  ~/header.cpp
 -'  18  0  ~/array.sh
 -'  10  1  ~/array.sh
 -'  14  0  ~/c-echo.h
@@ -48,7 +54,6 @@ $
 -'  14  0  ~/test.cpp
 -'  22  1  ~/test.cpp
 -'  23  13  ~/test.cpp
--'  1  0  ~/test.cpp
 -'  2  0  ~/CMakeLists.txt
 -'  6  0  ~/CMakeLists.txt
 -'  5  0  ~/.gitignore
@@ -127,11 +132,36 @@ $
 -'  4  0  ~/hello.sh
 -'  1  0  ~/hello.sh
 -'  4  0  ~/hello.sh
--'  1  0  ~/hello.sh
--'  4  0  ~/hello.sh
--'  1  0  ~/hello.sh
 
 # History of marks within files (newest to oldest):
+
+> ~/test.cpp
+	"	1	0
+	^	1	5
+	.	1	4
+	+	23	13
+	+	21	1
+	+	9	0
+	+	10	0
+	+	14	0
+	+	9	1
+	+	10	0
+	+	25	0
+	+	23	1
+	+	20	0
+	+	18	1
+	+	29	0
+	+	31	0
+	+	1	4
+
+> ~/README.md
+	"	60	0
+
+> ~/header.cpp
+	"	2	2
+	^	2	3
+	.	2	2
+	+	2	2
 
 > ~/array.sh
 	"	18	0
@@ -180,24 +210,6 @@ $
 	+	2	0
 	+	3	0
 	+	6	0
-
-> ~/test.cpp
-	"	33	0
-	^	33	0
-	.	31	0
-	+	23	13
-	+	21	1
-	+	9	0
-	+	10	0
-	+	14	0
-	+	9	1
-	+	10	0
-	+	25	0
-	+	23	1
-	+	20	0
-	+	18	1
-	+	29	0
-	+	31	0
 
 > ~/CMakeLists.txt
 	"	2	0
